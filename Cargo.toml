@@ -18,7 +18,8 @@ wrapper around LMDB.
 travis-ci = { repository = "AltSysrq/lmdb-zero" }
 
 [dependencies]
-liblmdb-sys = "0.2.2"
+liblmdb-sys = { git = "https://github.com/Water-bamboo/liblmdb-sys", rev = "71bfa22401a080e84428ddef44fe209583843343" }
+#liblmdb-sys = "0.2.2"
 bitflags = "0.9.1"
 libc = "0.2.14"
 supercow = "0.1.0"
